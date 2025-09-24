@@ -22,3 +22,6 @@ Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr)
 
 
 # Vérifications W3C
+
+
+# Contributions au projet
