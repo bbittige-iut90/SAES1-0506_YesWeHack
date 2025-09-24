@@ -15,3 +15,10 @@ Etudiant 4 :  [ALLALI yanis](mailto:yanis.allali@edu.univ-fcomte.fr)
 Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr)
 
 # Présentation du projet
+
+
+
+# Répartition du travail
+
+
+# Vérifications W3C
