@@ -12,6 +12,6 @@ Etudiant 3 : BOUJU Jarod
 
 Etudiant 4 : ALLALI Yanis
 
-Etudiant 5 : LAHURTE Noé (mailto:noe.lahurte@edu.univ-fcomte.fr)
+Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr)
 
 # Présentation du projet
