@@ -17,18 +17,6 @@
 
 
 
-Etudiant 1 (référent du groupe) : 
-
-
-Etudiant 2 : 
-
-
-Etudiant 3 :
-
-
-
-
-
 Etudiant 1 (référent du groupe) :  
 
 
