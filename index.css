@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+nav {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+height: 30px;
+background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  padding: 8px 12px;
+}
+
+nav a:hover {
+  background-color: red;
+  color: white;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
