@@ -16,3 +16,11 @@ Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr?subject=SAE_1_
 # Présentation du projet
 
 ...... (5/6 lignes)
+
+# Développement Site Web et Validation des pages
+
+
+# Contributions au projet
+
+
+# Répartition du travail
