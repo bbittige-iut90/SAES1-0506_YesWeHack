@@ -2,7 +2,7 @@
 ## Sujet
 [Lien du site](https://bbittige-iut90.github.io/SAES1-0506_YesWeHack/)
 
-## Membres du groupe :
+## Membres du groupe
 Etudiant 1 (référent du groupe) : [AUBRY Baptiste](mailto:batiste.aubry@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 Etudiant 2 : [BITTIGER Bryan](mailto:bryan.bittiger@edu.univ-fcomte.fr?subject=SAE_1_05_06)
