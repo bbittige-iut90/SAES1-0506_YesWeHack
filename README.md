@@ -15,4 +15,4 @@ Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr?subject=SAE_1_
 
 # Présentation du projet
 
-Notre site mettra en avant YesWeHack comme une **solution économique** bénéfique grâce au programme de récompense pour les bugs, soulignera **l'éthique** des hackers responsables et retracera **son parcours depuis 2015** jusqu'à sa position actuelle de leader européen en matière de cybersécurité.
+Notre site retracera **le parcours de YesWeHack depuis 2015** jusqu'à sa position actuelle de leader européen en matière de cybersécurité. Il mettra en avant l'entreprise comme une **solution économique** bénéfique grâce au programme de récompense pour les bugs. Il montrera **le fonctionnement** de l'entreprise et soulignera **l'éthique** des hackeurs responsables.
