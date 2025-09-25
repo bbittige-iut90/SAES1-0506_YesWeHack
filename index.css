@@ -77,9 +77,7 @@ nav a:hover {
 footer {
   background-color: black;
   display: block;
-  color: white;      
-  position: relative; 
-  z-index: 5;        
+      
 }
 
 }
