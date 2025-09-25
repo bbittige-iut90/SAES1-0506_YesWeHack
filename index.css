@@ -4,12 +4,11 @@ body, html{
   background-color: brown;
   width: 100%;
 }
-
 header {
   align-items:center;
   font-family:'Times New Roman', Times, serif;
   justify-content:center;
-  background: rgba(122, 121, 121, 0.1);
+  background: rgba(122, 121, 121, 0.05);
   padding: 0px;
   position: fixed;
   top:0;
@@ -17,11 +16,8 @@ header {
   margin-bottom: 100px;
   transition: all 0.8s ease-in-out;
   backdrop-filter: blur(10px);
-  border-bottom-width: 1px;
-  border-bottom-color: aliceblue;
-  border-bottom: 1px solid rgb(223, 219, 219, .5);
+  z-index: 5;
 }
-
 header::before{
   content: '';
   position:absolute;
@@ -31,78 +27,135 @@ header::before{
   height: 100%;
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2)) transparent;
   transition: .3s;
+  border-bottom-width: 1px;
+  border-bottom-color: aliceblue;
+  border-bottom: 1px solid rgb(223, 219, 219, .5);
 }
-
 header:hover::before{
   left: 100%;
 }
-
 header:hover{
   background-color: transparent;
   backdrop-filter: blur(150px);
 }
-
 nav {
   margin: 0;
   display: flex;
   align-items: center; 
   flex-wrap:wrap;
   float:right;
-  margin-right: 50px;
+  margin-right: 120px;
 }
-
 .logo{
   display: flex;
   float: left;
-  height: 30px;
-  width: 30px;
+  height: 65px;
+  width: 65px;
+  padding: 7px;
 }
 
-nav a {
+nav > button{
   text-decoration: none;
   color: white;
-  font-weight: 500;
-  padding: 20px 25px;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 30px 40px;
   display: block;
   background-color: transparent;
   transition: all 0.5s ease-out;
+  border-style: none;
 }
 
-nav a:hover {
+nav > button:hover {
   background-color: red;
   color: white;
   transition: background-color 0.3s ease;
 }
+#slogan{ 
+  text-align: center;
+  justify-content: center;
+  font-size: 45px;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: antiquewhite;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  animation: Fondue 2s forwards;
+  transition: all 1s ease-in;
+}
+@keyframes Fondue{
+  to{
+    opacity: 1;
+  }
+}
+#slogan:hover{
+  border-radius: 50px;
+  background: transparent;
+  backdrop-filter: blur(4px);
+  font-size: 47px;
+}
+.acceuil{
+  padding-bottom: 0;
+}
 
-footer {
+.contenu{
+  background-color: antiquewhite;
+  height: 600px;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 150px;
+}
+.presentation{
+  background-color: black;
+  border-radius: 10px;
+  color:rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+  position: sticky;
+  width: 500px;
+  display:block;
+  transform: translate(-50%, -50%);
+  left: 30%;
+  top:50%;
+  font-size: 25px;
+}
+footer{
   background-color: black;
   display: block;
-      
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  justify-content: end;
+  color: aliceblue;
 }
-
-
-
-img{
+footer>p{
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 0;
+}
+#img_acceuille{
   width: 100%;
+  margin: 0;
 }
-
-.titre{
-  position: absolute;
-}
-
-
-nav.content {
-    position: absolute;      
-    top: 50%;                 
-    left: 50%;                
-    transform: translate(-50%, -50%);
-    text-align: center;       
-    z-index: 2; 
-    color: white; 
-}
-
-@media (max-width: 768px) {
-  nav > a{
+@media (max-width: 868px) {
+  nav > button{
     font-size: 50%;
+    padding: 10px 12.5px;
+  }
+  .logo{
+    width: 17.5px;
+    height: 17.5px;
+  }
+}
+@media (max-width: 350px) {
+  nav > button{
+    font-size: 25%;
+    padding: 5px 6.25px;
+  }
+  .logo{
+    width: 8.5px;
+    height: 8.5px;
   }
 }
