@@ -4,6 +4,7 @@ body, html{
   background-color: brown;
   width: 100%;
 }
+
 header {
   align-items:center;
   font-family:'Times New Roman', Times, serif;
@@ -20,6 +21,7 @@ header {
   border-bottom-color: aliceblue;
   border-bottom: 1px solid rgb(223, 219, 219, .5);
 }
+
 header::before{
   content: '';
   position:absolute;
@@ -30,13 +32,16 @@ header::before{
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2)) transparent;
   transition: .3s;
 }
+
 header:hover::before{
   left: 100%;
 }
+
 header:hover{
   background-color: transparent;
   backdrop-filter: blur(150px);
 }
+
 nav {
   margin: 0;
   display: flex;
@@ -45,6 +50,7 @@ nav {
   float:right;
   margin-right: 50px;
 }
+
 .logo{
   display: flex;
   float: left;
@@ -67,23 +73,33 @@ nav a:hover {
   color: white;
   transition: background-color 0.3s ease;
 }
+
 footer{
   background-color: black;
   display: block;
 }
+
 img{
   width: 100%;
-
 }
+
 .titre{
   position: absolute;
 }
+
+
+nav.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;    
+    min-height: 80vh;       
+    text-align: center;      
+}
+
 @media (max-width: 768px) {
   nav > a{
     font-size: 50%;
   }
-
-  header {
-
-  }
 }
+
