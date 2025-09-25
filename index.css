@@ -94,7 +94,8 @@ nav.content {
     left: 50%;                
     transform: translate(-50%, -50%);
     text-align: center;       
-    z-index: 2;              
+    z-index: 2; 
+    color: white; 
 }
 
 @media (max-width: 768px) {
