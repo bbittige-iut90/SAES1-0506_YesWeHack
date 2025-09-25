@@ -1,6 +1,6 @@
 ﻿# YesWeHack
 ## Sujet
-[YesWeHack](https://bbittige-iut90.github.io/SAES1-0506_YesWeHack/)
+[Lien du site](https://bbittige-iut90.github.io/SAES1-0506_YesWeHack/)
 
 ## Membres du groupe :
 Etudiant 1 (référent du groupe) : [AUBRY Baptiste](mailto:batiste.aubry@edu.univ-fcomte.fr?subject=SAE_1_05_06)
@@ -15,12 +15,4 @@ Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr?subject=SAE_1_
 
 # Présentation du projet
 
-...... (5/6 lignes)
-
-# Développement Site Web et Validation des pages
-
-
-# Contributions au projet
-
-
-# Répartition du travail
+Le site mettra en avant YesWeHack comme une solution économique bénéfique grâce au programme de récompense pour les bugs, soulignera l'éthique des hackers responsables et retracera son parcours depuis 2013 jusqu'à sa position actuelle de leader européen en matière de cybersécurité.
