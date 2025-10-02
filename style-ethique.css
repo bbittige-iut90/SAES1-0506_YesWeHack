@@ -1,64 +1,258 @@
-
-body, html {
+header {
+  align-items:center;
+  justify-content:center;
+  background: rgba(122, 121, 121, 0.05);
+  padding: 0px;
+  position: fixed;
+  top:0;
+  width: 100%;
+  margin-bottom: 100px;
+  transition: all 0.8s ease-in-out;
+  backdrop-filter: blur(10px);
+  z-index: 5;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  font-family:'Times New Roman', Times, serif;
+}
+header::before{
+  content: '';
+  position:absolute;
+  top:0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2)) transparent;
+  transition: .3s;
+  border-bottom-color: aliceblue;
+  border-bottom: 1px solid rgb(223, 219, 219, .5);
+}
+header:hover::before{
+  left: 100%;
+}
+header:hover{
+  background-color: transparent;
+  backdrop-filter: blur(150px);
+}
+nav {
   margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-  background-color: #111; 
-  color: #fff;            
+  display: flex;
+  align-items: center; 
+  flex-wrap:wrap;
+  float:right;
+  margin-right: 120px;
+  gap: 50px;
+}
+.logo img{
+  display: flex;
+  float: left;
+  height: 4%;
+  width: 4%;
+  padding: 5px;
 }
 
-
-.header {
-  background-color: #000;
-  padding: 10px 0;
-  text-align: center;
-}
-
-.navigation a {
-  color: #fff;
+nav  button{
   text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  transition: color 0.3s ease;
+  color: white;
+  position: relative;
+  font-weight: 300;
+  font-size: 24px;
+  padding: 30px 20px;
+  display: inline-block;
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+  border-style: none;
+}
+nav button:hover , button span:hover{
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 1);
+}
+nav #HISTOIRE{
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-.navigation a:hover {
-  color: red; 
+nav #HISTOIRE:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+nav #HISTOIRE:hover {
+  padding-right: 25px;
+}
+
+nav #HISTOIRE:hover::after{
+  opacity: 1;
+  right: 0;
 }
 
 
-h1, h2, h3 {
+nav #ECONOMIE{
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+nav #ECONOMIE:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+nav #ECONOMIE:hover {
+  padding-right: 25px;
+}
+
+nav #ECONOMIE:hover::after{
+  opacity: 1;
+  right: 0;
+}
+
+nav #FONCTIONNEMENT{
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+nav #FONCTIONNEMENT:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+nav #FONCTIONNEMENT:hover {
+  padding-right: 25px;
+}
+
+nav #FONCTIONNEMENT:hover::after{
+  opacity: 1;
+  right: 0;
+}
+
+nav #ETHIQUE{
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+nav #ETHIQUE:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+nav #ETHIQUE:hover {
+  padding-right: 25px;
+}
+
+nav #ETHIQUE:hover::after{
+  opacity: 1;
+  right: 0;
+}
+
+body{
+  background-color: black;
+  color: white;
+  font-size: large;
+
+}
+
+h2,h1{
   color: red;
+}
+
+.section-ethique img{
+  width: 25%;
+  display: inline-block;
+  margin-left: 25%;
+}
+
+.bloc-ethique p {
+  background-color: grey;
+  padding: 20px;
+  border-radius: 20px;
+  width: 30%;
+  height: 100px;
+  display: inline-block;
+  margin-left: 80px;
+  
+
+
+}
+
+
+.section-ethique{margin-top: 100px;}
+
+.section-ethique h1{
   text-align: center;
 }
 
 
-p {
-  line-height: 1.6;
-  margin: 10px 20px;
-}
 
-
-section {
-  padding: 30px 15px;
-  border-bottom: 1px solid #333;
-}
-
-
-.case-quote {
-  background: #222;
-  border-left: 5px solid red;
-  margin: 20px;
-  padding: 15px;
-  font-style: italic;
-}
-
-
-.footer {
-  background-color: #000;
-  color: #fff;
+.section-introduction h2{
   text-align: center;
-  padding: 15px;
-  margin-top: 30px;
-  font-size: 0.9em;
 }
+
+.bloc-introduction p {
+  background-color: grey;
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+  margin-left: 369px;
+  
+  }
+
+.section-introduction img{
+  float: right;
+  width: 25%;
+  margin-right: 396px;
+}
+
+.section-principes h2{
+  text-align: center;
+  margin-left: 400px;
+}
+
+
+.section-principes img{
+   width: 27%;
+   margin-left: 20%;
+}
+.bloc-principes{
+  background-color: grey;
+  padding: 20px;
+  width: 30%;
+  border-radius: 20px;
+  margin-left: 50% ;
+  
+
+}
+
+.section-benefices h2{
+  text-align: center;
+  margin-right: 400px;
+}
+
+.section-benefices img{
+  float: right;
+  width: 25%;
+  margin-right: 396px;}
+
+
+.bloc-benefices p{
+  background-color: grey;
+  padding: 20px;
+  width: 35%;
+  border-radius: 20px;
+  margin-left: 15%;
+
+}
+
+
