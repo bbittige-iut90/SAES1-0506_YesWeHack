@@ -67,7 +67,7 @@ nav  button{
   border-style: none;
 }
 nav button:hover , button span:hover{
-  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 1);
 }
 nav #HISTOIRE{
   display: inline-block;
