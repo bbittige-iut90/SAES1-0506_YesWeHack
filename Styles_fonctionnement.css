@@ -51,6 +51,7 @@ nav {
   height: 4%;
   width: 4%;
   padding: 5px;
+  margin: 0px;
 }
 
 nav  button{
@@ -159,11 +160,13 @@ nav #ETHIQUE:hover {
 nav #ETHIQUE:hover::after{
   opacity: 1;
   right: 0;
+}
 
 body h1 {
   color: white;
   text-decoration: underline;
   text-align: center;
+  margin-top: 100px;
 }
 
 body h2 {
@@ -194,4 +197,3 @@ footer {
   border-top: 3px solid red;
   margin-top: 150px;
 }
-
