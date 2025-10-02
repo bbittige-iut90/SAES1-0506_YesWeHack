@@ -67,7 +67,7 @@ nav  button{
   border-style: none;
 }
 nav button:hover , button span:hover{
-  text-shadow: 5px 5px 5px rgba(255, 255, 255, 1);
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
 }
 nav #HISTOIRE{
   display: inline-block;
@@ -187,7 +187,7 @@ nav #ETHIQUE:hover::after{
   background: transparent;
   backdrop-filter: blur(4px);
 }
-.acceuil>img{
+.acceuil>video{
   width: 100%;
   z-index: -1;
 }
@@ -195,11 +195,19 @@ nav #ETHIQUE:hover::after{
   background-color: whitesmoke;
 }
 .contenu_1> img{
-  box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
   width: 100%;
   scale: 0.9;
+  opacity: 0.4;
   border-radius: 45px;
   position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.contenu_1:hover >img{
+  opacity:1;
+  scale: 1;
+  border-radius: 0;
+  box-shadow:none;
 }
 .contenu_1 h1{
   text-align: center;
@@ -207,111 +215,56 @@ nav #ETHIQUE:hover::after{
   justify-content: center;
   display: block;
   color: black;
-  left: 25%;
+  left: 15%;
   font-size: 70px;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
   padding: 20px;
-  font-family:'Times New Roman', Times, serif;
-  top: 700px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  top: 900px;
 }
 .contenu_1:hover h1{
   opacity: 1;
 }
-.contenu_1 .block_1 , .contenu_1 .block_2{
-  height: 379px;
-  background-color: rgba(81, 81, 81, 0.1);
-  backdrop-filter: blur(5px);
-  border: 1px solid rgba(255, 255, 255, 0.01);
-  z-index: 2;
-  display: block;
-  width: 379px;
-  border-radius: 50%;
-}
-
-
-
-#h1_block_1{
+.blocks div{
+  display: inline-block;
+  height: 400px;
+  background-color: black;
+  gap: 30px;
   font-size: 30px;
-  left: 320px;
-  top: 1025px;
-  z-index: 3;
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
-}
-.block_1{
-  text-align: center;
-  padding: 20px;
-  left:203px;
+  padding: 10px;
+  width: 20%;
   position: relative;
-  top: 150px;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  box-shadow: 0px 4px 30px rgba(255, 0, 0, 0.8);
+  margin: 50px;
+  border-radius: 30px;
+  top: 200px;
+  transition: all .3s ease-in-out;
+  color: whitesmoke;
+  word-wrap: break-word;
+}
+.blocks div img{
+  width: 100%;
+  height: 50%;
+  border-radius: 30px;
 }
 .block_1:hover{
-  backdrop-filter: blur(100px);
-}
-.block_1 p{
-  opacity: 0;
-  transition: all 1.5s ease-in-out;
-  padding-top: 150px;
-}
-#h1_block_1:hover ~ .block_1{
-  opacity: 1;
-}
-#h1_block_1:hover ~ .block_1>p{
-  opacity: 1;
-}
-#h1_block_1:hover{
-  top: 950px;
-  padding-bottom: 90px;
-  background-color: none;
-  backdrop-filter: none;
-  box-shadow: none;
-}
-
-
-
-
-#h1_block_2{
-  font-size: 30px;
-  left: 750px;
-  top: 1025px;
-  z-index: 3;
-  padding: 15px;
-  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.2);
-}
-.block_2{
-  text-align: center;
-  padding: 20px;
-  left:650px;
-  position: relative;
-  top: -270px;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-  box-shadow: 0px 4px 30px rgba(29, 210, 255, 0.8);
+  top: 190px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }
 .block_2:hover{
-  backdrop-filter: blur(100px);
+  top: 190px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+
 }
-.block_2 p{
-  opacity: 0;
-  transition: all 1.5s ease-in;
-  padding-top: 150px;
+.block_3:hover{
+  top: 190px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+
 }
-#h1_block_2:hover ~ .block_2{
-  opacity: 1;
-}
-#h1_block_2:hover ~ .block_2>p{
-  opacity: 1;
-}
-#h1_block_2:hover{
-  top: 950px;
-  padding-bottom: 90px;
-  background-color: none;
-  backdrop-filter: none;
-  box-shadow: none;
-  border: none;
+.contenu_1{
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
 }
 .contenu_2 > video{
   position:absolute;
@@ -321,6 +274,7 @@ nav #ETHIQUE:hover::after{
   border-radius: 45px;
   transition: all 0.5s ease-in-out;
   box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
+  top: 1715px;
 }
 .contenu_2:hover video{
   opacity:1;
@@ -341,12 +295,13 @@ nav #ETHIQUE:hover::after{
   width: 150px;
   z-index: 3;
   border-radius: 10px;
-  box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 40px rgba(255, 255, 255, 1);
   opacity: 0.6;
   transition: all 0.5s ease-in-out;
   text-decoration-color: transparent;
   text-decoration: none;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
   padding-left: 10px;
   padding-top: 20px;
   font-size: 20px;
@@ -354,6 +309,7 @@ nav #ETHIQUE:hover::after{
 }
 #lien_histoire:hover{
   opacity: 1;
+  background-color: rgba(255, 255, 255, 1);
 }
 .contenu_2{
   background-color:whitesmoke;
@@ -415,6 +371,23 @@ nav #ETHIQUE:hover::after{
   border-radius: 10px;
   height: 350px;
   margin-bottom: 0;
+}
+.presentation_2 img{
+  width: 100%;
+  height: 200px;
+  border-radius: inherit;
+}
+.presentation_2 h1{
+  font-size: 25px;
+  padding-top: 0px;
+}
+.presentation_2 p{
+  opacity: 0;
+  transition: all 1s ease-in;
+font-size: 20px;
+}
+.presentation_2:hover p{
+  opacity: 1;
 }
 .presentation_2:hover ~ .presentation_3{
   height: 200px;
