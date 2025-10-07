@@ -23,22 +23,27 @@ Pour la conception du site, [...]
 ## Développement du Site Web et Validation des pages
 ### Page d'accueil
 **Auteur: LAHURTE Noé**
+<br>
 Vérification W3C: 
 
 ### Page histoire
 **Auteur: BITTIGER Bryan**
+<br>
 Vérification W3C: 
 
 ### Page économie
 **Auteur:  BOUJU Jarod**
+<br>
 Vérification W3C: 
 
 ### Page fonctionnement
 **Auteur: AUBRY Baptiste**
+<br>
 Vérification W3C: 
 
 ### Page éthque
 **Auteur: ALLALI Yanis**
+<br>
 Vérification W3C: 
 
 <!-- 
@@ -55,6 +60,13 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 ### Planification - Diagramme de GANTT
 - BITTIGER Bryan
 - AUBRY Baptiste
+
+### Chercher des informations sur le site
+- LAHURTE Noé
+- BITTIGER Bryan
+- BOUJU Jarod
+- AUBRY Baptiste
+- ALLALI Yanis
 
 ### Développement du site
 - NAHURTE Noé
