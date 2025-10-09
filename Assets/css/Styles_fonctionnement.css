@@ -1,5 +1,8 @@
 body {
-    background-color: black;
+    background-image: url(../images/fond.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 header {
