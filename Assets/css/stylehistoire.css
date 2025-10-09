@@ -1,9 +1,11 @@
-/*PARTIE COMMUNE*/
+/* -------------------
+--- PARTIE COMMUNE ---
+-------------------- */
 body, html{
   margin: 0;
   padding: 0;
   width: 100%;
-  background-color:#262626;
+  background-color:var(--fond);
 }
 header {
   align-items:center;
@@ -58,7 +60,7 @@ nav {
 
 nav  button{
   text-decoration: none;
-  color: white;
+  color: black;
   position: relative;
   font-weight: 300;
   font-size: 24px;
@@ -165,41 +167,137 @@ nav #ETHIQUE:hover::after{
 }
 
 
-/* PARTIE PERSO*/
 
-/*PREMIERE SECTION*/
-section {
-    color:white;
+
+
+
+
+
+
+
+/* -----------------
+--- PARTIE PERSO ---
+------------------ */
+
+/* Variables */
+body{
+    --blanc: #ffffff;
+    --noir: #000000;
+    --anthracite: #262626;
+
+    --titre:#96c5f7;
+    --texte: #a9d3ff;
+    --fond: #f2f4ff;
 }
 
-h1, h2 {
-    color:white;
-    align-content: center;
+/* FONT */
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-style: normal;
 }
 
-.section1 {
-    position: relative;
+.chau-philomene-one-regular {
+  font-family: "Chau Philomene One", sans-serif;
+  font-style: normal;
 }
 
-.section1 h1,h2 {
-    font-size:4em;
+/* Couleurs textes / titre*/
+h3 {
+  display:flex;
+  justify-content:center;
+  color:var(--titre);
+  font-size:30px;
+}
+
+.texte {
+  color:var(--texte);
+  font-size:20px;
+}
+
+/* Images */
+.img-gauche {
+  display:flex;
+  justify-content:left;
+  border-radius:10px;
+}
+.img-gauche img {
+  border-radius:10px;
+}
+
+.img-droite {
+  display:flex;
+  justify-content:right;
+  border-radius:10px;
+}
+.img-droite img {
+  border-radius:10px;
+}
+
+/* Texte */
+.texte {
+  display:flex;
+  justify-content:center;
+}
+
+/* --------------
+PREMIERE SECTION
+--------------- */
+
+/* Titre + image de fond de page */
+.section-titre-page h1,h2 {
+  display:flex;
+  flex-direction:column;
+  color: var(--fond);
+  font-size:4em;
 }
 
 .img_fond {
-    object-fit: cover;
-    height:100%;
-    width: 100%;
-    display:block;
+  display:flex;
+  height:100%;
+  width: 100%;
 }
 
-.section1 .div1 {
+/* Div de la section */
+.section-titre-page .titre-page {
     position: absolute;
-    top:40%;
-    left:10%;
-    color: white;
+    display:flex;
+    flex-direction:column;
     text-align: center;
+    top:35%;
+    left:20%;
+    color: var(--blanc);
 }
 
-section {
-    color: white;
+/* --------------
+DEUXIÈME SECTION
+--------------- */
+.section-frise {
+  display:flex;
+  justify-content: center;
+}
+
+
+/* --------------
+TROISIEME SECTION
+--------------- */
+.section-debut {
+  background-color:var(--blanc);
+}
+
+/* --------------
+QUATRIEME SECTION
+--------------- */
+
+/* --------------
+CINQUIEME SECTION
+--------------- */
+.section-aujd {
+  background-color:var(--blanc);
+}
+
+/* ---------------
+----- FOOTER -----
+--------------- */
+footer {
+  border-top: 1px solid var(--anthracite);
 }
