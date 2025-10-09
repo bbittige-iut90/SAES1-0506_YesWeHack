@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="Assets/images/favicon.ico">
     <link rel="stylesheet" href="Assets/css/stylehistoire.css">
+    <!-- Font -->
+    <!-- anton -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- chau philomene-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
     <title>Histoire - YesWeHack</title>
 
 </head>
 
 <body>
-      <!-- Navigation commune -->
+<!-- Navigation commune -->
     <header>
         <div class="logo"><a href="index.html"><img src="Assets/images/logo-removebg-preview.png"></a></div>
         <nav>
@@ -21,65 +30,90 @@
         </nav>
     </header>
 
-    <section class="section1">
-        <div class="div1">
-            <h1>HISTOIRE</h1>
-            <h2>De start-up française à géant du bug bounty</h2>
+<!-- Page histoire -->
+    <!-- Première section: titre de la page + image de fond -->
+    <section class="section-titre-page">
+        <div class="titre-page">
+            <h1 class="anton-regular">HISTOIRE</h1>
+            <h2 class="anton-regular">De start-up française à géant du bug bounty</h2>
         </div>
-        <img class="img_fond" src="Assets/images/fond_histoire.png" alt="fond de la page">
+        <img class="img_fond" src="Assets/images/img_histoire/fond_histoire.jpeg" alt="fond de la page">
     </section>
 
-    <section>
-        <h3>Débuts de l'entreprise</h3>
-        <ul>
-            <li>Fondée en 2015 par Guillaume Vassault-Houlière et Manuel Dorne</li>
-            <li>Plateforme née du milieu des hackers éthiques</li>
-            <li>Connecte des organisations à des dizaines de miliers de chercheurs en cyber-sécurité</li>
-            <li>Définir les notions de bug bounty, hackeur éthique, white hat</li>
-        </ul>
-        <h4>[image à gauche]</h4>
+    <!-- Deuxième section: représentation graphique - Frise -->
+     <section class="section-frise">
+        <div class="frise">
+            <h3 class="anton-regular">Frise Chronologique</h3>
+            <img src="Assets/images/img_histoire/frise-histoire.png" alt="image de la frise chronologique">
+        </div>
+     </section>
+
+
+    <!-- Troisième section: débuts de l'entreprise -->
+    <section class="section-debut">
+        <div class="section-debut">
+            <h3 class="anton-regular">Débuts de l'entreprise</h3>
+        </div>
+        <div class="texte">
+            <ul class="chau-philomene-one-regular">
+                <li>Fondée en 2015 par Guillaume Vassault-Houlière et Manuel Dorne</li>
+                <li>Plateforme née du milieu des hackers éthiques</li>
+                <li>Connecte des organisations à des dizaines de miliers de chercheurs en cyber-sécurité</li>
+                <li>Définir les notions de bug bounty, hackeur éthique, white hat</li>
+            </ul>
+        </div>
+        <div class="img-gauche">
+            <img src="Assets/images/img_histoire/image-histoire-1.jpeg" alt="image section 3">
+        </div>
     </section>
 
-    <section>
-        <h3>Expansion de la start-up</h3>
-        <ul>
-            <li>Un total de 40 000 inscrits</li>
-            <li>Différentes levées de fonds (2019, 2021, 2024)</li>
-            <li>Clients différents: DoctoLib, Décathlon, La Poste Suisse ... </li>
-            <li>2020: tester la sécurité de l'application TousAntiCovid</li>
-            <li>Certifiés SecNumCloud, ISO 27001, CSA STAR, SOC I /II Type 2 et PCI DSS</li>
-        </ul>
-        <h4>[image à droite]</h4>
+    <!-- Quatrième section: expansion de la start-up -->
+    <section class="section-expansion">
+        <div>
+            <h3 class="anton-regular">Expansion de la start-up</h3>
+        </div>
+        <div class="texte">
+            <ul class="chau-philomene-one-regular">
+                <li>Un total de 40 000 inscrits</li>
+                <li>Différentes levées de fonds (2019, 2021, 2024)</li>
+                <li>Clients différents: DoctoLib, Décathlon, Orange, Tencent ... </li>
+                <li>2020: tester la sécurité de l'application TousAntiCovid</li>
+                <li>Certifiés SecNumCloud, ISO 27001, CSA STAR, SOC I /II Type 2 et PCI DSS</li>
+            </ul>
+        </div>
+        <div class="img-droite">
+            <img src="Assets/images/img_histoire/image-histoire-2.jpg" alt="image section 4">
+        </div>
     </section>
 
-    <section>
-        <h3>YesWeHack aujourd'hui et demain</h3>
-        <ul>
-            <li>Leader européen du bug bounty</li>
-            <li>Developpement constant de sa communauté dans le monde</li>
-            <li>Acquisition de Sekost en 2024</li>
-            <li>A obtenu le statut d'autorité de numérotation CVE (Common Vulnerabilities and Exposures)</li>
-        </ul>
-        <h4>[image à gauche]</h4>
+    <!-- Cinquième section: YesWeHack aujourd'hui et demain -->
+    <section class="section-aujd">
+        <div>
+            <h3 class="anton-regular">YesWeHack aujourd'hui et demain</h3>
+        </div>
+        <div class="texte">
+            <ul class="chau-philomene-one-regular">
+                <li>Leader européen du bug bounty</li>
+                <li>Developpement constant de sa communauté dans le monde</li>
+                <li>Acquisition de Sekost en 2024</li>
+                <li>A obtenu le statut d'autorité de numérotation CVE (Common Vulnerabilities and Exposures)</li>
+            </ul>
+        </div>
+        <div class="img-gauche">
+            <img src="Assets/images/img_histoire/image-histoire-3.jpeg" alt="image section 5">
+        </div>
     </section>
 
     <footer>
-        <p>sources
+        <p class="chau-philomene-one-regular">sources
             <br>
             <a href="https://www.yeswehack.com/fr/about">YesWeHack.com,</a>
             <a href="https://fr.wikipedia.org/wiki/YesWeHack">wikipedia.org,</a>
             <a href="https://www.lemondeinformatique.fr/actualites/lire-pour-cibler-les-pme-yes-we-hack-rachete-sekost-97813.html">lemondeinformatique.fr,</a>
             <a href="https://www.clubic.com/actualite-580342-le-francais-yeswehack-denicheur-de-vulnerabilites-informatiques-entre-dans-la-cour-des-grands.html">clubic.com</a>
         </p>
-        <p>Bryan BITTIGER, BUT informatique, A1</p>
+        <p class="chau-philomene-one-regular">Bryan BITTIGER, BUT informatique, A1</p>
     </footer>
 
 </body>
 </html>
-
-
-
-
-
-
-
