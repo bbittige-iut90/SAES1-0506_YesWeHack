@@ -1,8 +1,5 @@
 body {
-    background-image: url(../images/fond.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #F2F4FF;
 }
 
 header {
@@ -59,7 +56,7 @@ nav {
 
 nav  button{
   text-decoration: none;
-  color: white;
+  color: black;
   position: relative;
   font-weight: 300;
   font-size: 24px;
@@ -165,38 +162,54 @@ nav #ETHIQUE:hover::after{
   right: 0;
 }
 
-body h1 {
-  color: white;
-  text-decoration: underline;
-  text-align: center;
-  margin-top: 100px;
+.intro {
+  width: calc(100% - 100px);
+  margin: 110px 50px 0 50px;
+  border-radius: 30px;
+  background-color: #a9d3ff;
 }
 
-body h2 {
-  color: white;
-  text-decoration: underline;
-  text-align: center;
+.paragraphe {
+  width: calc(100% - 120px);
+  margin: 60px 60px 0 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
 }
 
-.paragraphe_1 {
-  margin-top: 150px;
-  margin-left: 200px;
+.paragraphe > div {
+  background-color: #a9d3ff;
+  box-shadow: -7px 10px #96C5F7;
+  width: calc(100% - 360px);
+  max-width: 840px;
+  padding: 30px 30px;
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 30px;
 }
 
-.paragraphe_2 {
-  margin-top: 200px;
-  margin-left: 25px;
+section > a > img{
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+  box-shadow: 5px 7px black;
 }
 
-body img {
-  margin-top: 75px;
-}
-
-body p {
-  color: white;
+section > a > img:hover{
+  height: 300px;
+  width: 400px;
+  border-style: solid;
+  border-color: #a9d3ff;
+  border-radius: 30px;
+  box-shadow: 5px 7px #96C5F7;
 }
 
 footer {
-  border-top: 3px solid red;
+  border-top: 3px solid blue;
   margin-top: 150px;
 }
