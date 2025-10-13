@@ -1,6 +1,6 @@
 ﻿# YesWeHack
 ## Sujet
-[Nom du projet](https://bbittige-iut90.github.io/SAES1-0506_YesWeHack/)
+page github: [cliquez ici](https://bbittige-iut90.github.io/SAES1-0506_YesWeHack/)
 
 ## Membres du groupe
 Etudiant 1 (référent du groupe) : [AUBRY Baptiste](mailto:batiste.aubry@edu.univ-fcomte.fr?subject=SAE_1_05_06)
@@ -63,7 +63,7 @@ Vérification W3C:
 - ALLALI Yanis
 
 ### Développement du site
-- NAHURTE Noé
+- LAHURTE Noé
   - Page d'accueil
   - Navbar / Footer
 - BITTIGER Bryan
