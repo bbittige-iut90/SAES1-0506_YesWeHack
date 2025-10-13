@@ -763,7 +763,7 @@ nav #ETHIQUE:hover::after{
   filter: blur(7px);
   opacity: 0;
 }
-.contenu_2 button:hover ~ #lien_shadow{
+.contenu_2 a:hover ~ #lien_shadow{
   opacity: 1;
 }
 #lien_histoire{
@@ -771,9 +771,10 @@ nav #ETHIQUE:hover::after{
   display: flex;
   left: 45%;
   top: 51%;
-  height: 70px;
-  width: 150px;
+  height: 60px;
+  width: 135px;
   z-index: 3;
+  color: black;
   border-radius: 10px;
   box-shadow: 0 0 40px rgba(255, 255, 255, 1);
   transition: all 0.5s ease-in-out;
@@ -781,7 +782,7 @@ nav #ETHIQUE:hover::after{
   text-decoration: none;
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
-  padding-left: 15px;
+  padding-left: 25px;
   padding-top: 15px;
   font-size: 25px;
   text-transform: uppercase;
