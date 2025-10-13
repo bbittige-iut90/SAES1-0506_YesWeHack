@@ -89,7 +89,7 @@ nav {
   padding: 5px;
 }
 
-nav  button{
+nav  a{
   text-decoration: none;
   color: white;
   position: relative;
@@ -101,7 +101,7 @@ nav  button{
   transition: all 0.5s ease-in-out;
   border-style: none;
 }
-nav button:hover , button span:hover{
+nav a:hover , a span:hover{
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
 }
 
@@ -153,8 +153,8 @@ nav #ECONOMIE:hover::after{
 nav #FONCTIONNEMENT{
   display: inline-block;
   position: relative;
-  text-decoration-line: underline;
   transition: 0.5s;
+  text-decoration-line: underline;
 }
 
 nav #FONCTIONNEMENT:after {
