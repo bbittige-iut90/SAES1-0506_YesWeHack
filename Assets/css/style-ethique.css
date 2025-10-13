@@ -263,7 +263,7 @@ footer {
 }
 
 /* Logos principa*/
-#YWH, #Y {
+.logos-footer {
      width: 40px;
     height: 40px;
     margin: 0 10px;
