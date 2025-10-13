@@ -47,6 +47,8 @@ Vérification W3C: [détails](https://validator.w3.org/nu/?showsource=yes&doc=ht
 
 <img src="Assets/captures/verifW3C_fonctionnement.png" width="600px" alt="capture ecran verif W3C">
 
+Vérification site écologique: [détails](https://www.ecoindex.fr/resultat/?id=dff620c1-dc9c-4a3b-9cbf-c5f7baa74f0d)
+
 <img src="Assets/captures/testECO_fonctionnement.png" width="600px" alt="capture ecran ecoconcept">
 
 ### Page éthque
