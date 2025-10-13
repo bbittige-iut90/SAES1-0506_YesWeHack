@@ -3,6 +3,8 @@ body {
     background-size: cover, 200px auto;
 }
 
+/* ==== Font (Polices d'écritures) ==== */
+
 .anton-regular-nav {
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -29,6 +31,8 @@ body {
   font-style: italic;
   font-size: 25px;
 }
+
+/* ==== Barre de naviguation commune (navbar) ==== */
 
 header {
   align-items:center;
@@ -188,6 +192,9 @@ nav #ETHIQUE:hover::after{
   right: 0;
 }
 
+/* ==== Body ==== */
+
+/* ==== Début de la page (into) ==== */
 .intro {
   width: 100%;
 }
@@ -221,6 +228,10 @@ nav #ETHIQUE:hover::after{
   width: 100%;
 }
 
+/* ==== Section (= paragraphe + image) ==== */
+
+/* ==== 1ère section  ==== */
+
 .paragraphe1 {
   width: calc(100% - 120px);
   margin: 60px 60px 0 60px;
@@ -249,6 +260,30 @@ nav #ETHIQUE:hover::after{
   transform: scale(1.1);
 }
 
+.img_1{
+  height: 400px;
+  width: 500px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+  box-shadow: 5px 7px black;
+  margin-top: 25px;
+  transition: all 0.25s ease-in-out;
+}
+
+.img_1:hover{
+  height: 400px;
+  width: 500px;
+  border-style: solid;
+  border-color: #a9d3ff;
+  border-radius: 30px;
+  box-shadow: 5px 7px #96C5F7;
+  margin-top: 25px;
+  transform: scale(1.1);
+}
+
+/* ==== 2ème section ==== */
+
 .paragraphe2 {
   width: calc(100% - 120px);
   margin: 60px 60px 0 60px;
@@ -276,7 +311,29 @@ nav #ETHIQUE:hover::after{
   transform: scale(1.1);
 }
 
+.img_2 {
+  height: 300px;
+  width: 600px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 30px;
+  box-shadow: -5px 7px black;
+  margin-top: 100px;
+  transition: all 0.25s ease-in-out;
+}
 
+.img_2:hover{
+  height: 300px;
+  width: 600px;
+  border-style: solid;
+  border-color: #a9d3ff;
+  border-radius: 30px;
+  box-shadow: -5px 7px #96C5F7;
+  margin-top: 100px;
+  transform: scale(1.1);
+}
+
+/* ==== 3ème section ==== */
 .paragraphe3 {
   width: calc(100% - 120px);
   margin: 60px 60px 0 60px;
@@ -304,50 +361,6 @@ nav #ETHIQUE:hover::after{
   transform: scale(1.1);
 }
 
-.img_1{
-  height: 400px;
-  width: 500px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 30px;
-  box-shadow: 5px 7px black;
-  margin-top: 25px;
-  transition: all 0.25s ease-in-out;
-}
-
-.img_1:hover{
-  height: 400px;
-  width: 500px;
-  border-style: solid;
-  border-color: #a9d3ff;
-  border-radius: 30px;
-  box-shadow: 5px 7px #96C5F7;
-  margin-top: 25px;
-  transform: scale(1.1);
-}
-
-.img_2 {
-  height: 300px;
-  width: 600px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 30px;
-  box-shadow: -5px 7px black;
-  margin-top: 100px;
-  transition: all 0.25s ease-in-out;
-}
-
-.img_2:hover{
-  height: 300px;
-  width: 600px;
-  border-style: solid;
-  border-color: #a9d3ff;
-  border-radius: 30px;
-  box-shadow: -5px 7px #96C5F7;
-  margin-top: 100px;
-  transform: scale(1.1);
-}
-
 .img_3{
   height: 450px;
   width: 400px;
@@ -355,7 +368,7 @@ nav #ETHIQUE:hover::after{
   border-color: black;
   border-radius: 30px;
   box-shadow: 5px 7px black;
-  margin-top: 80px;
+  margin-top: 115px;
   transition: all 0.25s ease-in-out;
 }
 
@@ -367,10 +380,160 @@ nav #ETHIQUE:hover::after{
   border-radius: 30px;
   box-shadow: 5px 7px #96C5F7;
   transform: scale(1.1);
-  margin-top: 80px;
+  margin-top: 115px;
 }
 
-footer {
-  border-top: 3px solid blue;
-  margin-top: 150px;
+/* ==== Bas de page commun (footer) ==== */
+
+footer{
+  background-color: var(--bleu-clair);
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 450px;
+  justify-content: end;
+  color: aliceblue;
+  padding: 100px 120px 50px;
+  gap: 20px;
+  bottom: 0;
+  overflow:hidden;
+}
+footer .reseaux {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  margin-left: 30px;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 10px;
+}
+footer .reseaux a {
+  width: 3%;
+  gap: 25px;
+  margin: 10px 10px 10px 0px;
+  transition: all .2s ease-in-out;
+}
+footer .reseaux img{
+  width: 100%;
+  border-radius: 50%;
+}
+#logo_SN{
+  margin-left: 100px;
+}
+#logo_SL1:hover{
+  scale: 1.1;
+}
+#logo_SL2:hover{
+  scale: 1.1;
+}
+#logo_SL3:hover{
+  scale: 1.1;
+}
+#logo_SL4:hover{
+  scale: 1.1;
+}
+#logo_SN:hover{
+  scale: 1.1;
+}
+footer .liens{
+  text-align: center;
+  color: black;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  float: right;
+  border: 1px solid rgba(200, 200, 200, 0.2);
+  gap: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
+footer .liens > div{
+  border: 1px dashed rgba(100, 100, 100, 0.1);
+  padding: 30px;
+  border-radius: inherit;
+}
+footer .liens h1{
+  margin: 0 0 30px 0;
+  font-size: 30px;
+}
+footer .sous-liens p{
+  color: black;
+  text-decoration: black;
+}
+footer .histoire{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.suivre{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: row;
+  float: left;
+  color: black;
+  padding-right: 10px;
+}
+#Suivez-les{
+  text-align: left;
+  margin-left: 85px;
+  margin-top: 40px;
+  width: 70px;
+  font-weight: bold;
+}
+#SN_hr{
+  float: left;
+  margin-top: 0;
+  width: 50px;
+  margin-left: 90px;
+  margin-right: 0;
+  color:  #e60000;
+  border-color: #e60000;
+  border-radius: 10px;
+}
+#Suivez-nous{
+  float: right;
+  margin-left: 145px;
+  margin-top: 40px;
+  margin-bottom: 0;
+  padding-top: 0;
+  font-weight: bold;
+}
+#SL_hr{
+  margin-top: 0;
+  width: 50px;
+  float: right;
+  color:  #224cf4;
+  border-color: #224cf4;
+  border-radius: 10px;
+  margin-right: 90px;
+}
+footer>p{
+  padding-top: 50px;
+  text-align: center;
+  margin-top: 0;
+  color: black;
+}
+#YWH{
+  width: 20%;
+  float: left;
+  margin-right: 15px;
+}
+#Y{
+  width: 10%;
+  float: left;
+}
+#img_acceuille{
+  width: 100%;
+  margin: 0;
+}
+footer #mentions{
+  margin-top: 330px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
 }
