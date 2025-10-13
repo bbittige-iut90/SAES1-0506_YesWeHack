@@ -253,55 +253,59 @@ body {
   background-color: #f2f6ff;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER  */
 footer {
-    background-color: #002b5b;
-    color: #ffffff;
-    padding: 50px 20px;
+    background-color: #003366; 
+    color: white;
+    padding: 60px 20px 40px;
     text-align: center;
+    position: relative;
     font-family: 'Chau Philomene One', sans-serif;
 }
 
-/* Logo */
-footer .logos-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 30px;
-}
-
-footer .logos-footer img {
-    max-width: 120px;
+/* Logos principa*/
+#YWH, #Y {
+    max-width: 80px; 
     height: auto;
+    margin: 0 10px;
+    display: inline-block;
 }
 
-/* Réseaux */
-footer .reseaux {
+/* Suivez-nous */
+.suivre {
+    margin: 20px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 20px;
-    margin-bottom: 30px;
+    font-weight: bold;
 }
 
-footer .reseaux img {
+/* réseauxsociaux */
+.reseaux {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.reseaux a img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     transition: transform 0.2s ease-in-out;
 }
 
-footer .reseaux img:hover {
+.reseaux a img:hover {
     transform: scale(1.1);
 }
 
 /* Mention */
-footer #mentions {
-    font-size: 16px;
+#mentions {
+    font-size: 14px;
     color: rgba(255, 255, 255, 0.7);
-    margin-top: 20px;
+    margin-top: 15px;
 }
+
 
 
 /*  NETTO*/
