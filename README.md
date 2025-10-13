@@ -29,7 +29,7 @@ Vérification W3C:
 ### Page histoire
 **Auteur: BITTIGER Bryan**
 
-Vérification W3C: [Détail ICI]()
+Vérification W3C: [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2Fhistoire.html)
 
 <img src="Assets/captures/histoire_W3C.png" width="400px" alt="capture ecran verif W3C">
 
@@ -49,16 +49,6 @@ Vérification W3C:
 **Auteur: ALLALI Yanis**
 
 Vérification W3C: 
-
-<!-- 
-### Présentation générale
-**Auteur : Nom Prénom**  
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
-<br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur verif W3C">
-<br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">](url) 
--->
 
 ## Répartition du travail
 ### Planification - Diagramme de GANTT
