@@ -24,7 +24,7 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 ### Page d'accueil
 **Auteur: LAHURTE Noé**
 
-Vérification W3C: 
+Vérification W3C: [détails](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2F)
 
 ### Page histoire
 **Auteur: BITTIGER Bryan**
