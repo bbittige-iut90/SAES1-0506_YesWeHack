@@ -103,6 +103,7 @@ body {
 }
 
 
+
 /* IMAG INTRO */
 .section-image {
   position: relative;
@@ -136,24 +137,30 @@ body {
   padding: 80px 0;
   border-top: 3px solid #8cc6ff;
 }
+.section-ethique h2{
+   color: #dcefff;
+}
 
 .section-introduction {
   background-color: #f8fbff;
   padding: 80px 0;
   border-top: 3px solid #cde5ff;
 }
+.section-introduction h2 { color: #f8fbff;}
 
 .section-principes {
   background: linear-gradient(135deg, #e6f2ff, #c6e0ff);
   padding: 80px 0;
   border-top: 3px solid #9ecbff;
 }
+.section-principes h2{color: #e6f2ff;}
 
 .section-benefices {
   background-color: #f1f6fb;
   padding: 80px 0;
   border-top: 3px solid #9ecbff;
 }
+.section-benefices{color: #f1f6fb;}
 
 .section-cas {
   background: linear-gradient(135deg, #002b5b, #004080);
@@ -161,7 +168,7 @@ body {
   color: #f2f4ff;
   border-top: 3px solid #7cc4ff;
 }
-
+.section-cas{color:  #002b5b;}
 /*BLOC*/
 .bloc-ethique p,
 .bloc-introduction p,
