@@ -45,6 +45,10 @@ Vérification W3C:
 
 Vérification W3C: [détails](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2Ffonctionnement.html)
 
+<img src="Assets/captures/verifW3C_fonctionnement.png" width="600px" alt="capture ecran verif W3C">
+
+<img src="Assets/captures/testECO_fonctionnement.png" width="600px" alt="capture ecran ecoconcept">
+
 ### Page éthque
 **Auteur: ALLALI Yanis**
 
