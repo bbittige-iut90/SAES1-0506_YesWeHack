@@ -80,6 +80,11 @@ body {
   font-size: 30px ;
   font-family: Arial, Helvetica, sans-serif;
 }
+ .anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 /*IMG INTRO */
