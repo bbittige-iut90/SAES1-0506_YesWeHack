@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     background: url(Assets/images/fond-fonctionnement.jpg);
     background-size: cover, 200px auto;
