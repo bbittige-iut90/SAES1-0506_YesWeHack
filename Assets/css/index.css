@@ -24,6 +24,9 @@ body, html{
   --bleu-clair: #f2f4ff;
   background-color: #a9d3ff;
 }
+
+/*-------------NAV-BAR--------------*/
+/*-------DEBUT------*/
 header {
   align-items:center;
   justify-content:center;
@@ -181,6 +184,10 @@ nav #ETHIQUE:hover::after{
   opacity: 1;
   right: 0;
 }
+
+/*-------FIN------*/
+/*-------------NAV-BAR--------------*/
+
 #slogan{ 
   text-align: center;
   justify-content: center;
@@ -196,11 +203,7 @@ nav #ETHIQUE:hover::after{
   opacity: 1;
   z-index: 1;
 }
-@keyframes Fondue{
-  to{
-    opacity: 1;
-  }
-}
+
 #slogan:hover{
   border-radius: 50px;
   background: transparent;
@@ -263,6 +266,10 @@ nav #ETHIQUE:hover::after{
 .contenu_1:hover .ligne3 .block_1 p{
   opacity: 1;
 }
+
+
+/*-----BOITE-MENU-----*/
+/*-----DEBUT-----*/
 
 .ligne1, .ligne2, .ligne3{
   display: flex;
@@ -722,6 +729,10 @@ nav #ETHIQUE:hover::after{
   box-shadow: inset 0 0 30px rgba(255, 255, 255, 1);
 }
 
+/*-----FIN-----*/
+/*-----BOITE-MENU-----*/
+
+
 .contenu_2 > img{
   position:absolute;
   width: 100%;
@@ -780,6 +791,7 @@ nav #ETHIQUE:hover::after{
   opacity: 1;
   background-color: #f5f5f55e;
 }
+
 .contenu_2{
   height: 1000px;
   margin: 0;
@@ -788,6 +800,7 @@ nav #ETHIQUE:hover::after{
   overflow: hidden;
   margin-bottom: 40px;
 }
+
 .presentation_1{
   background-color: #96c5f73b;
   border-radius: 40px;
@@ -844,6 +857,8 @@ nav #ETHIQUE:hover::after{
   box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
   background-position: 0% 50%;
 }
+
+
 .presentation_1 p{
   margin: 0;
   width: auto;
@@ -855,7 +870,6 @@ nav #ETHIQUE:hover::after{
   width: 50%;
   font-weight:bolders;
 }
-
 .presentation_1 h1{
   font-size: 40px
 }
@@ -946,6 +960,9 @@ nav #ETHIQUE:hover::after{
   width: 400px;
   margin-top: 0;
 }
+
+/*---------FOOTER--------*/
+/*---------DEBUT---------*/
 
 footer{
   background-color: var(--bleu-clair);
@@ -1099,20 +1116,27 @@ footer #mentions{
   font-weight: bold;
   color: rgba(0, 0, 0, 0.5);
 }
-
+/*---------FIN------*/
+/*---------FOOTER--------*/
 
 
 /*--------ANIMATIONS---------*/
 
 @keyframes degrade_anime{
   0%{
-    background-position: 0%, 50%;
+    background-position: 0%, 50%;/*-Affiche la partie gauche central du background précedemment agrandie en *6.-*/
   }
   50%{
-    background-position: 100%, 50%;
+    background-position: 100%, 50%;/*-Puis transition jusqu'a la droite-*/
   }
   100%{
-    background-position: 0%, 50%;
+    background-position: 0%, 50%;/*-Retour a la position initiale-*/
   }
 
+}
+
+@keyframes Fondue{
+  to{
+    opacity: 1;
+  }
 }
