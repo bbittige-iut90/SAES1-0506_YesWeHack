@@ -18,7 +18,7 @@ Etudiant 5 : [LAHURTE Noé](mailto:noe.lahurte@edu.univ-fcomte.fr?subject=SAE_1_
 Ce dépôt correspond à un site web créé en HTML/CSS dans le cadre de la SAÉ 05-06 à l'IUT NFC. Notre site présentera l'entreprise YesWeHack et retracera **son parcours depuis 2015** jusqu'à sa position actuelle de leader européen en matière de cybersécurité. Il le mettra en avant comme une **solution économique** bénéfique grâce au programme de récompense pour les bugs. Il montrera **le fonctionnement** de l'entreprise et soulignera **l'éthique** des hackeurs responsables.
 
 ## Choix de conception du site
-Pour la conception du site, [...]
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de YesWeHack (disponible [ici](https://www.yeswehack.com/fr))
 
 ## Développement du Site Web et Validation des pages
 ### Page d'accueil
@@ -29,7 +29,7 @@ Vérification W3C:
 ### Page histoire
 **Auteur: BITTIGER Bryan**
 
-Vérification W3C: [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Vérification W3C: [Détail ICI]()
 
 <img src="Assets/captures/histoire_W3C.png" width="400px" alt="capture ecran verif W3C">
 
@@ -87,4 +87,4 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 ## Contributeurs
 
-![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
+![capture d'écran de sur la contribution des membres du projet](Assets/captures/contribution.png)
