@@ -7,6 +7,7 @@ body, html{
   width: 100%;
   background-color:var(--fond);
 }
+/*-------------NAV-BAR--------------*/
 /*-------DEBUT------*/
 header {
   align-items:center;
@@ -59,7 +60,7 @@ nav {
   padding: 5px;
 }
 
-nav  button{
+nav  a{
   text-decoration: none;
   color: white;
   position: relative;
@@ -71,7 +72,7 @@ nav  button{
   transition: all 0.5s ease-in-out;
   border-style: none;
 }
-nav button:hover , button span:hover{
+nav a:hover , a span:hover{
   text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.8);
 }
 
@@ -165,6 +166,7 @@ nav #ETHIQUE:hover::after{
   opacity: 1;
   right: 0;
 }
+
 /*-------FIN------*/
 
 /*---------FOOTER--------*/
