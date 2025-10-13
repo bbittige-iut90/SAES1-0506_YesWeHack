@@ -31,9 +31,9 @@ Vérification W3C:
 
 Vérification W3C: [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2Fhistoire.html)
 
-<img src="Assets/captures/histoire_W3C.png" width="400px" alt="capture ecran verif W3C">
+<img src="Assets/captures/histoire_W3C.png" alt="capture ecran verif W3C">
 
-<img src="Assets/captures/histoire_ecoconcept.png" width="400px" alt="capture ecran ecoconcept">
+<img src="Assets/captures/histoire_ecoconcept.png" alt="capture ecran ecoconcept">
 
 ### Page économie
 **Auteur:  BOUJU Jarod**
