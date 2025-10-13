@@ -26,6 +26,10 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 Vérification W3C: [détails](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2F)
 
+<img src="Assets/captures/index_W3C.png" width="600px" alt="capture ecran verif W3C">
+
+<img src="Assets/captures/index_ecoconcept.png" width="600px" alt="capture ecran ecoconcept">
+
 ### Page histoire
 **Auteur: BITTIGER Bryan**
 
