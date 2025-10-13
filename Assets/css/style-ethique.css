@@ -93,6 +93,17 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.7;
 }
+.chau-philomene-one-regular {
+  font-family: "Chau Philomene One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ .anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* IMAG INTRO */
 .section-image {
