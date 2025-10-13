@@ -149,6 +149,7 @@ nav #ECONOMIE:hover::after{
 nav #FONCTIONNEMENT{
   display: inline-block;
   position: relative;
+  text-decoration-line: underline;
   transition: 0.5s;
 }
 
@@ -200,7 +201,7 @@ nav #ETHIQUE:hover::after{
 }
 
 .graph {
-  width:750px; 
+  width:900px; 
   border-radius: 10px; 
   margin-top: 175px; 
   margin-bottom: 30px; 
@@ -215,7 +216,7 @@ nav #ETHIQUE:hover::after{
   font-size: 100px;
   color: white;
   margin-top: 300px;
-  margin-left: 200px;
+  margin-left: 100px;
   z-index: 1;
 }
 
@@ -254,10 +255,6 @@ nav #ETHIQUE:hover::after{
   justify-content: center;
   border-radius: 30px;
   transition: all 0.25s ease-in-out;
-}
-
-.paragraphe1 > div:hover {
-  transform: scale(1.1);
 }
 
 .img_1{
@@ -307,10 +304,6 @@ nav #ETHIQUE:hover::after{
   transition: all 0.25s ease-in-out;
 }
 
-.paragraphe2 >div:hover {
-  transform: scale(1.1);
-}
-
 .img_2 {
   height: 300px;
   width: 600px;
@@ -355,10 +348,6 @@ nav #ETHIQUE:hover::after{
   justify-content: center;
   border-radius: 30px;
   transition: all 0.25s ease-in-out;
-}
-
-.paragraphe3 > div:hover {
-  transform: scale(1.1);
 }
 
 .img_3{
