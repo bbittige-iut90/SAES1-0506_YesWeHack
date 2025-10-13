@@ -255,51 +255,54 @@ body {
 
 /* ===== FOOTER ===== */
 footer {
-  background-color: var(--bleu-clair);
-  color: black;
-  padding: 50px 20px;
-  text-align: center;
-  position: relative;
+    background-color: #002b5b;
+    color: #ffffff;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: 'Chau Philomene One', sans-serif;
 }
 
-footer .suivre {
-  margin-bottom: 20px;
+/* Logo */
+footer .logos-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 30px;
 }
 
-footer .suivre p {
-  font-weight: bold;
-  font-size: 1.2rem;
+footer .logos-footer img {
+    max-width: 120px;
+    height: auto;
 }
 
+/* Réseaux */
 footer .reseaux {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
 }
 
-footer .reseaux a {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  transition: transform 0.2s ease-in-out;
+footer .reseaux img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.2s ease-in-out;
 }
 
-footer .reseaux a img {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
+footer .reseaux img:hover {
+    transform: scale(1.1);
 }
 
-footer .reseaux a:hover {
-  transform: scale(1.1);
-}
-
+/* Mention */
 footer #mentions {
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.5);
-  font-weight: bold;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 20px;
 }
+
 
 /*  NETTO*/
 * {
