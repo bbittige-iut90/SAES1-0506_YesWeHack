@@ -43,7 +43,7 @@ Vérification W3C:
 ### Page fonctionnement
 **Auteur: AUBRY Baptiste**
 
-Vérification W3C: 
+Vérification W3C: [détails](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2Ffonctionnement.html)
 
 ### Page éthque
 **Auteur: ALLALI Yanis**
