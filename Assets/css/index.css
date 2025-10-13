@@ -763,7 +763,7 @@ nav #ETHIQUE:hover::after{
   filter: blur(7px);
   opacity: 0;
 }
-.contenu_2 a:hover ~ #lien_shadow{
+.contenu_2 button:hover ~ #lien_shadow{
   opacity: 1;
 }
 #lien_histoire{
@@ -797,7 +797,7 @@ nav #ETHIQUE:hover::after{
   padding-bottom: 0px;
   padding-top: 0px;
   overflow: hidden;
-  margin-bottom: 0px;
+  margin-bottom: -40px;
 }
 
 .presentation_1{
