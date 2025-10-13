@@ -56,6 +56,12 @@ Vérification site écologique: [détails](https://www.ecoindex.fr/resultat/?id=
 
 Vérification W3C: 
 
+<img src="Assets/captures/ethique.html_W3C.png" width="600px" alt="capture ecran verif W3C">
+
+<img src="Assets/captures/ethique_ecoconcept.png" width="600px" alt="capture ecran ecoconcept">
+
+<img src="Assets/captures/ethique.css_W3C.png" width="600px" alt="capture ecran verif W3C">
+
 ## Répartition du travail
 ### Planification - Diagramme de GANTT
 - BITTIGER Bryan
