@@ -58,7 +58,7 @@ Vérification site écologique: [détails](https://www.ecoindex.fr/resultat/?id=
 ### Page éthque
 **Auteur: ALLALI Yanis**
 
-Vérification W3C: 
+Vérification W3C: [détails](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2Fethique.html)
 
 <img src="Assets/captures/ethique.html_W3C.png" width="600px" alt="capture ecran verif W3C">
 
