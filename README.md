@@ -23,27 +23,31 @@ Pour la conception du site, [...]
 ## Développement du Site Web et Validation des pages
 ### Page d'accueil
 **Auteur: LAHURTE Noé**
-<br>
+
 Vérification W3C: 
 
 ### Page histoire
 **Auteur: BITTIGER Bryan**
-<br>
-Vérification W3C: 
+
+Vérification W3C: [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<img src="Assets/captures/histoire_W3C.png" width="400px" alt="capture ecran verif W3C">
+
+<img src="Assets/captures/histoire_ecoconcept.png" width="400px" alt="capture ecran ecoconcept">
 
 ### Page économie
 **Auteur:  BOUJU Jarod**
-<br>
+
 Vérification W3C: 
 
 ### Page fonctionnement
 **Auteur: AUBRY Baptiste**
-<br>
+
 Vérification W3C: 
 
 ### Page éthque
 **Auteur: ALLALI Yanis**
-<br>
+
 Vérification W3C: 
 
 <!-- 
@@ -71,7 +75,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 ### Développement du site
 - NAHURTE Noé
   - Page d'accueil
-  - Navbar
+  - Navbar / Footer
 - BITTIGER Bryan
   - Page histoire
 - BOUJU Jarod
@@ -80,3 +84,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - Page fonctionnement
 - ALLALI Yanis
   - Page éthique
+
+## Contributeurs
+
+![capture d'écran de sur la contribution des membres du projet](doc/livrable2_contributors.png)
