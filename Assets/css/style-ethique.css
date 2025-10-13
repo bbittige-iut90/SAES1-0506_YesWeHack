@@ -45,7 +45,7 @@ header:hover {
   padding: 5px;
 }
 
-/* ==== NAVIGATION ==== */
+/*  NAV*/
 nav {
   display: flex;
   align-items: center;
@@ -55,7 +55,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #003366; /* Couleur principale */
+  color: #003366; 
   font-weight: 500;
   font-size: 20px;
   position: relative;
@@ -63,9 +63,9 @@ nav a {
   padding-right: 0;
 }
 
-/* Effet flèche au survol */
+/* Effet flèche  */
 nav a::after {
-  content: '\00bb'; /* flèche » */
+  content: '\00bb'; 
   position: absolute;
   opacity: 0;
   right: -20px;
