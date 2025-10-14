@@ -390,6 +390,7 @@ footer{
   gap: 20px;
   bottom: 0;
   overflow:hidden;
+  border-top: solid 1px var(--anthracite);
 }
 footer .reseaux {
   display: flex;
