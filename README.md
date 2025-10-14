@@ -44,6 +44,10 @@ Vérification W3C: [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 Vérification W3C: 
 
+<img src="#" width ="600px" alt="capture ecran ecoconcept">
+
+<img src="#" width ="600px" alt="capture ecran ecoconcept">
+
 ### Page fonctionnement
 **Auteur: AUBRY Baptiste**
 
