@@ -712,6 +712,8 @@ footer>p{
   margin: 0;
 }
 footer #mentions{
-  float: left;
+  position: absolute;
+  margin: 17% 40% 0% 40%;
+  z-index: 1;
 }
 /*-------FIN------*/
