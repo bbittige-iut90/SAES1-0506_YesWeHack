@@ -42,11 +42,11 @@ Vérification W3C: [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 ### Page économie
 **Auteur:  BOUJU Jarod**
 
-Vérification W3C: 
+Vérification W3C: [Détails](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbbittige-iut90.github.io%2FSAES1-0506_YesWeHack%2Feconomie.html)
 
-<img src="Assets/captures/economi_W3C" width ="600px" alt="capture ecran ecoconcept">
+<img src="Assets/captures/economi_W3C.png" width="600px" alt="capture ecran W3C">
 
-<img src="Assets/captures/economi_ecoconcept" width ="600px" alt="capture ecran ecoconcept">
+<img src="Assets/captures/economi_ecoconcept.png" width="600px" alt="capture ecran ecoconcept">
 
 ### Page fonctionnement
 **Auteur: AUBRY Baptiste**
